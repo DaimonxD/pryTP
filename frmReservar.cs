@@ -18,6 +18,7 @@ namespace pryTP
             radioButton1.Checked = true;
         }
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -37,23 +38,24 @@ namespace pryTP
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(radioButton1.Checked == true)
-            {
-                cboxV1.Enabled = false;
-                cboxV2.Enabled = false;
-                cboxA1.Enabled = true;
-                cboxA2.Enabled = true;
-            }
-            if(radioButton2.Checked == true)
-            {
-                cboxV1.Enabled = true;
-                cboxV2.Enabled = true;
-                cboxA1.Enabled = false;
-                cboxA2.Enabled = false;
-            }
 
             if(comboBox1.SelectedItem.ToString() == "Quenaken")
             {
+                if (radioButton1.Checked == true)
+                {
+                    cboxV1.Enabled = false;
+                    cboxV2.Enabled = false;
+                    cboxA1.Enabled = true;
+                    cboxA2.Enabled = true;
+                }
+                if (radioButton2.Checked == true)
+                {
+                    cboxV1.Enabled = true;
+                    cboxV2.Enabled = true;
+                    cboxA1.Enabled = false;
+                    cboxA2.Enabled = false;
+                }
+
                 cboxA1.Items.Clear();
                 cboxA2.Items.Clear();
                 cboxV1.Items.Clear();
@@ -80,6 +82,22 @@ namespace pryTP
 
             if(comboBox1.SelectedItem.ToString() == "Onas")
             {
+                if (radioButton1.Checked == true)
+                {
+                    cboxV1.Enabled = false;
+                    cboxV2.Enabled = false;
+                    cboxA1.Enabled = true;
+                    cboxA2.Enabled = true;
+                }
+                if (radioButton2.Checked == true)
+                {
+                    cboxV1.Enabled = true;
+                    cboxV2.Enabled = true;
+                    cboxA1.Enabled = false;
+                    cboxA2.Enabled = false;
+                }
+
+
                 cboxA1.Items.Clear();
                 cboxA2.Items.Clear();
                 cboxV1.Items.Clear();
@@ -106,6 +124,22 @@ namespace pryTP
 
             if(comboBox1.SelectedItem.ToString() == "Tobas")
             {
+                if (radioButton1.Checked == true)
+                {
+                    cboxV1.Enabled = false;
+                    cboxV2.Enabled = false;
+                    cboxA1.Enabled = true;
+                    cboxA2.Enabled = true;
+                }
+                if (radioButton2.Checked == true)
+                {
+                    cboxV1.Enabled = true;
+                    cboxV2.Enabled = true;
+                    cboxA1.Enabled = false;
+                    cboxA2.Enabled = false;
+                }
+
+
                 cboxA1.Items.Clear();
                 cboxA2.Items.Clear();
                 cboxV1.Items.Clear();
